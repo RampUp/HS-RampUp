@@ -49,10 +49,10 @@ Take a minute to look through your Facebook feed text files. What words jump out
 
 Go up to the board and write down 5 words that you think will come up most often. If someone has already written down your word, write down a different one.
 
-Part 4. Short discussion of NLP
+Part 4. Short discussion of Natural Langauge Processing
 ---
 
-Lets take a look at these words together and decided which words we want to remove from our feed.
+Lets take a look at these words together and decide which words we want to remove from our feed.
 * Common words
 * URLs
 * Your name
