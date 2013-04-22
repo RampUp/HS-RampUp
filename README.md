@@ -76,6 +76,32 @@ Lets wait and see :)
 
 Part 5. Lets start parsing your feed
 ---
+Everyone is going to choose to parse their word feed differently. To start off, we will walk through an example of how to loop through your code. 
+
+```
+for word in newwords:
+	print word
+```
+
+This is an example of a basic for loop that iterates through each word seen and prints out each word individually. You can think about for loops like Easter Eggs. You can dye all your Easter Eggs at once, but for maximum effect, you want to pick up each one indivdually, "process it", and put it back to dry. In Computer Science, this would be called iterating through the Easter Eggs.
+
+Now, we can put that inside of a __function__ so that we only have to type it one and can resuse it. You can think about a function as a tube that you cannot see inside. You put an __arguement__ into the box on one side and out drops a returned object, which is different than the argument. For example, in the code below, I put a list of words into the tube and the tube "operated on them" and returned "done!" when it finished running.
+
+```
+def printWords(lst):
+	for word in lst:
+		print word
+	return "done!"
+
+printWords(oldwords)
+printWords(newwords)
+```
+
+Now we are going to talk to you about how to remove a word from your list of words.
+
+
+
+
 
 
 
