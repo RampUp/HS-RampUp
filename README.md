@@ -20,7 +20,7 @@ Before we get started, I want to introduce you to the people who are here to hel
 * Mike Laderman
 * Evan Simpson 
 * Alec Radford 
-* Juliana Nazar&aecute;
+* Juliana Nazar&eacute;
 
 Please raise your hand as soon as you have any questions and we will come help.
 
