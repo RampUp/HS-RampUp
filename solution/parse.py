@@ -3,8 +3,16 @@
 def readIn(filename):
 	"""Takes in filename. Returns array of words in file"""
 	with open(filename, 'r') as myfile:
-		words = myfile.read().replace('\n', ' ')
+		words = myfile.read().replace('\n', ' ').lower()
 	return words.split()
+
+def getCommonWords():
+	"""Returns a list of common words"""
+	fin = open('commonwords.txt', 'r')
+	commons = [line.strip() for line in fin]
+	commons = [word.lower() for word in commons]
+	fin.close()
+	return commons
 
 oldwords = readIn("oldwords.txt")
 newwords = readIn("newwords.txt")
@@ -60,20 +68,13 @@ newwords = removePunctuation(newwords)
 
 def removeCommonWords(lst):
 	"""Removes all words in commons.txt from list and returns processed list"""
-	fin = open('commonwords.txt', 'r')
-	commons = [line.strip() for line in fin]
-	commons = [word.lower() for word in commons]
-	fin.close()
-
-	lst = [word.lower() for word in lst] # need to convert all to lowercase first
-
+	commons = getCommonWords()
 	parsedlst = []
 	for word in lst:
 		if word in commons:
 			print "Removed common word: " + word
 		if word not in commons:
 			parsedlst.append(word)
-	
 	return parsedlst
 
 oldwords = removeCommonWords(oldwords)

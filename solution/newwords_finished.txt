@@ -162,6 +162,7 @@ cambridge
 peter
 albert
 nathaniel
+juliana
 thomas
 least
 dozen
@@ -242,6 +243,7 @@ pizza
 soda
 rsvp
 introducing
+juliana
 nazaré
 awesome
 new
@@ -249,6 +251,7 @@ campus
 ambassador
 olin
 welcome
+juliana
 hey
 anyone
 thinking
@@ -329,6 +332,7 @@ email
 julianastudentsolinedu
 thanks
 ~
+juliana
 tonight
 going
 meeting
@@ -367,11 +371,13 @@ week
 challenge
 shoot
 email
+julianabostonstartupschoolcom
 bss
 7pm
 thursday
 text
 7035170066
+juliana
 7038017814
 2nd
 hackmit
@@ -456,6 +462,7 @@ stata
 center
 awkward
 moment
+juliana
 laughing
 brett
 recording
